@@ -1,0 +1,103 @@
+Задача 4
+#include <math.h>
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() 
+{
+         int a;
+	cout<<"number:";
+	cin>>a;
+	switch (a){
+		case 1:
+		case 3:
+		case 5:
+		case 7:
+		case 8:
+		case 10:
+		case 12:
+		cout<<"31 days in mounth";
+		break;
+		case 4:
+		case 6:
+		case 9:
+		case 11:
+		cout<<"30 days in mounth";
+		break;
+		case 2:
+		cout<<"28 days in mounth";
+		break;
+	}																					                                        
+}
+________________________________________________________-
+Задача 5
+#include <math.h>
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() 
+{
+  int a,b,c;
+	cout<<"Action number\n addition-1\n subtraction-2\n multiplication-3\n divison-4:";
+	cin>>a;
+	cout<<"A:";
+	cin>>b;
+	cout<<"B:";
+	cin>>c;
+	switch(a){
+		case 1:
+		cout<<b+c;
+		break;
+		case 2:
+		cout<<b-c;
+		break;
+		case 3:
+		cout<<b*c;
+		break;
+		case 4:
+		cout<<b/c;
+		break;
+	}																						                                        
+}
+_________________________________________________________________
+Задача 15
+#include <math.h>
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() 
+{
+int n,m;
+		cout<<"Dignity:";
+		cin>>n;
+		cout<<"Suit:";
+		cin>>m;
+		switch (n){
+			case 11:
+				cout<<"jack,";
+					break;
+			case 12:
+				cout<<"queen,";
+				    break;
+			case 13:
+				cout<<"king,";
+				    break;
+			case 14:
+				cout<<"ace,";
+				    break;
+		}	
+		switch (m){
+			case 1:
+				cout<<"spade";
+				break;
+			case 2:
+				cout<<"club";
+				break;
+			case 3:
+				cout<<"diamond";
+				break;
+			case 4:
+				cout<<"heart";
+				break;			
+		}																												                                        
+}
